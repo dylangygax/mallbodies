@@ -1,18 +1,69 @@
+@font-face {
+    font-family: 'chaney';
+    src: url("CHANEY-UltraExtended.otf") format("opentype");
+}
+
 body {
     background-color: rgb(114, 245, 74);
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
+
+.research {
+    background-image: url("collage-1.png");
+}
+
+.headshot {
+    width: 40vw;
+    float: right; 
+    margin: 0px 15px 15px 0px;
+    border: 5px solid red;
+}
+
+.headshot-left {
+    width: 40vw;
+    float: left; 
+    margin: 0px 15px 15px 0px;
+    border: 5px solid red;
+}
+
+.map {
+    width: 100%;
+}
+
+.about {
+    white-space: pre-wrap;
+    /* background-color: aqua; */
+}
+
+/* .about-body {
+    background-image: url("Collage4.jpg");
+} */
 
 h1 {
     size: 400;
     color: rgb(72, 10, 131);
     text-align: center;
+    background-color: aqua;
+    font-family: 'chaney';
 }
 
 .artist {
-    color: rgb(173, 33, 56);
+    color: rgb(255, 0, 0);
     font-size: 25px;
+}
+
+.tracks {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.on-pink {
+    background-color: pink;
+}
+
+.homepage {
+    background-image: url("Collage4.jpg");
 }
 
 p {
@@ -23,9 +74,14 @@ p {
     text-align: center;
 }
 
+.centered {
+    text-align: center;
+}
+
 a {
-    color: rgb(243, 52, 195);
-    font-size: 16px;
+    color: rgb(249, 1, 214);
+    font-size: 20px;
+    background-color: aqua;
 }
 
 #poster {
