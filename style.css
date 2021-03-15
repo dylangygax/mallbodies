@@ -3,10 +3,21 @@
     src: url("CHANEY-UltraExtended.otf") format("opentype");
 }
 
+@font-face {
+    font-family: 'archia';
+    src: url("archia-semibold-webfont.ttf") format("opentype");
+}
+
 body {
     background-color: rgb(114, 245, 74);
     padding: 0;
     margin: 10px;
+}
+
+.logo {
+    width: 70%;
+    display: block;
+    margin: 10px auto;
 }
 
 .research {
@@ -68,6 +79,7 @@ h1 {
 
 p {
     font-size: 18px;
+    font-family: 'archia';
 }
 
 .nav {
