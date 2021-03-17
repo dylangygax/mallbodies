@@ -12,6 +12,7 @@ body {
     background-color: rgb(114, 245, 74);
     padding: 0;
     margin: 10px;
+    background-attachment: fixed;
 }
 
 .logo {
@@ -52,7 +53,15 @@ body {
 } */
 
 h1 {
-    size: 400;
+    font-size: 22px;
+    color: rgb(72, 10, 131);
+    text-align: center;
+    background-color: aqua;
+    font-family: 'chaney';
+}
+
+h2 {
+    font-size: 18px;
     color: rgb(72, 10, 131);
     text-align: center;
     background-color: aqua;
@@ -73,6 +82,10 @@ h1 {
     background-color: pink;
 }
 
+.red {
+    color: red;
+}
+
 .homepage {
     background-image: url("Collage4.jpg");
 }
@@ -84,6 +97,7 @@ p {
 
 .nav {
     text-align: center;
+    background-color: aqua;
 }
 
 .centered {
@@ -94,6 +108,13 @@ a {
     color: rgb(249, 1, 214);
     font-size: 20px;
     background-color: aqua;
+    font-family: 'archia';
+    margin: 2px;
+}
+
+.article {
+    background-color: red;
+    color: aqua;
 }
 
 #poster {
